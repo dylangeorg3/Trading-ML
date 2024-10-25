@@ -1,7 +1,11 @@
 
 import yfinance as yf
 
+from functions.py import *
+
 if __name__ == "__main__": 
-    print("hello world")
+    functions.do_something()
+
+
 
 

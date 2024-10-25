@@ -1,0 +1,12 @@
+import unittest
+from module1 import function1
+
+class TestModule1(unittest.TestCase):
+    def test_function1(self):
+        self.assertEqual(function1(), "Hello from Module 1")
+
+if __name__ == "__main__":
+    unittest.main()
+
+# Run the tests
+# python -m unittest discover tests
