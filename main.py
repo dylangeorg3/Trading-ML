@@ -1,10 +1,10 @@
 
 import yfinance as yf
 
-from functions.py import *
+from functions import *
 
 if __name__ == "__main__": 
-    functions.do_something()
+    do_something()
 
 
 
